@@ -16,6 +16,14 @@ The system monitors the camera feed and detects selected objects such as:
 
 When a target object is detected, the system keeps track of detections and can trigger an audible alert using the Windows `winsound` module.
 
+## Why This Project Was Created
+
+Farms can be vulnerable to unauthorized human entry and animal intrusion, especially when they are located in areas where continuous manual monitoring is difficult.
+
+This project was created to explore how computer vision and real-time object detection can be used for basic automated farm monitoring. By using a webcam and YOLOv8, the system identifies selected objects such as people and animals and provides an audible alert when a target is detected.
+
+The goal is to provide a simple, low-cost prototype that demonstrates how AI-based vision systems can assist with farm security and monitoring.
+
 ## Features
 
 - Real-time webcam-based object detection
